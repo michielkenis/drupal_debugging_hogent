@@ -7,9 +7,6 @@
 /web/profiles/contrib/
 /web/libraries/
 
-# Ignore Drupal's file directory
-/web/sites/*/files/
-
 # Ignore SimpleTest multi-site environment.
 /web/sites/simpletest
 

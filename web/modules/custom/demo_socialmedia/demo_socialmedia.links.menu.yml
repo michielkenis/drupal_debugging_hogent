@@ -1,0 +1,6 @@
+demo_socialmedia.social_media_config_form:
+  title: 'Social Media'
+  route_name: demo_socialmedia.social_media_config_form
+  parent: system.admin_config_system
+  weight: 99
+

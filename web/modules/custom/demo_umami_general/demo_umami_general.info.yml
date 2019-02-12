@@ -1,0 +1,4 @@
+name: 'Demo Umami General'
+type: module
+core: 8.x
+package: 'Custom'

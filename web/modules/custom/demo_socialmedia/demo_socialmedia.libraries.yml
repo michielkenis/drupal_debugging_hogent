@@ -1,0 +1,6 @@
+demo_socialmedia:
+  version: 1.x
+  js:
+    js/share.js: {}
+  dependencies:
+    - core/jquery

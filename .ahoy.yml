@@ -1,0 +1,41 @@
+ahoyapi: v2
+commands:
+  ps:
+    cmd: docker-compose ps "$@"
+    usage: List containers.
+
+  start:
+    cmd: docker-compose start "$@"
+    usage: Start services.
+
+  stop:
+    cmd: docker-compose stop "$@"
+    usage: Stop services.
+
+  restart:
+    cmd: docker-compose restart "$@"
+    usage: Restart services.
+
+  up:
+    cmd: docker-compose up -d "$@"
+    usage: Create and start containers.
+
+  down:
+    cmd: docker-compose down "$@"
+    usage: Stop and remove containers, networks, images, and volumes.
+
+  composer:
+    cmd: docker-compose run -w /var/www/html php composer "$@"
+    usage: Run Composer commands in the php service container.
+
+  drupal:
+    cmd: docker-compose run -w /var/www/html/web php drupal "$@"
+    usage: Run Drupal Console commands in the php service container.
+
+  drush:
+    cmd: docker-compose run -w /var/www/html/web php drush "$@"
+    usage: Run Drush commands in the php service container.
+
+  shell:
+    cmd: docker-compose run -w /var/www/html php /bin/sh "$@"
+    usage: Run shell commands in the php service container.

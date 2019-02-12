@@ -1,0 +1,18 @@
+<?php
+
+function demo_socialmedia_theme() {
+  return array(
+    'demo_social_links' => array(
+      'variables' => array(
+        'title' => NULL,
+        'links' => NULL,
+      ),
+    ),
+    'demo_social_sharing' => array(
+      'variables' => array(
+        'title' => NULL,
+        'links' => NULL,
+      ),
+    ),
+  );
+}

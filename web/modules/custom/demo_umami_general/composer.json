@@ -1,0 +1,14 @@
+{
+    "name": "district01/demo_umami_general",
+    "description": "Creates general configuration.",
+    "type": "drupal-custom",
+    "keywords": ["Drupal 8","GTM"],
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Sander Hofman",
+            "email": "sander.hofman@district01.be",
+            "homepage": "http://www.district01.be"
+        }
+    ]
+}

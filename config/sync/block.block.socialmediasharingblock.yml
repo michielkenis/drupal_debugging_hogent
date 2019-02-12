@@ -1,0 +1,49 @@
+uuid: f7e6cd2d-4738-4f99-9266-ac7d59347583
+langcode: en
+status: true
+dependencies:
+  module:
+    - demo_socialmedia
+    - node
+  theme:
+    - umami
+id: socialmediasharingblock
+theme: umami
+region: sidebar
+weight: 0
+provider: null
+plugin: demo_socialmedia_sharing
+settings:
+  id: demo_socialmedia_sharing
+  label: Share
+  provider: demo_socialmedia
+  label_display: visible
+  facebook:
+    enabled: '1'
+    weight: '-9'
+  twitter:
+    enabled: '1'
+    weight: '-10'
+  instagram:
+    enabled: 0
+    weight: '0'
+  reddit:
+    enabled: '1'
+    weight: '0'
+  linkedin:
+    enabled: 0
+    weight: '-8'
+  mail:
+    enabled: '1'
+    weight: '-7'
+  googleplus:
+    enabled: 0
+    weight: '0'
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      recipe: recipe
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

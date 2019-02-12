@@ -1,0 +1,10 @@
+demo_socialmedia.social_media_config_form:
+  path: '/admin/config/social'
+  defaults:
+    _form: '\Drupal\demo_socialmedia\Form\SocialMediaConfigForm'
+    _title: 'Social Share'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE
+

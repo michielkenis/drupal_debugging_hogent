@@ -1,0 +1,14 @@
+uuid: 0e33a261-338d-48df-bed2-f9afb46abf43
+name: 'Drupal HoGent'
+mail: info@district01.be
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

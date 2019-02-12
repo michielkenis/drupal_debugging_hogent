@@ -1,0 +1,6 @@
+name: Demo Social Media
+description: Creates blocks with social media links and sharing buttons.
+package: 'Custom'
+type: module
+core: 8.x
+version: '8.x-1.0'

@@ -7,6 +7,11 @@
 /web/profiles/contrib/
 /web/libraries/
 
+# Ignore theme assets
+/web/sites/*/files/css
+/web/sites/*/files/js
+/web/sites/*/files/styles
+
 # Ignore SimpleTest multi-site environment.
 /web/sites/simpletest
 
